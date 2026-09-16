@@ -45,7 +45,7 @@ The system reduces the need for manual time tracking and provides clear visual a
 • LPC2148 ARM7 Development Board  
 • 16×2 LCD  
 • 4×4 Keypad  
-• RTC (DS1307)  
+• RTC  
 • LM35 Temperature Sensor  
 • 7-Segment Display  
 • Green LED  
@@ -68,7 +68,7 @@ The system reduces the need for manual time tracking and provides clear visual a
 | 7-Segment Digit Select      | P0.16, P0.17 | Digit selection |
 | Green / Yellow / Red LEDs   | P2.0 – P2.2  | Examination time indication |
 | Buzzer                      | P2.3         | Audio warning |
-| RTC                         | I²C           | Time and date information |
+| RTC                         | Internal RTC  | Time and date information |
 | LM35                        | ADC           | Temperature measurement |
 | Switch 1                    | EINT0         | Admin / configuration mode |
 | Switch 2                    | EINT1         | Emergency pause / resume |
@@ -116,7 +116,9 @@ The controller interfaces with:
 
 ## 🧩 Block Diagram
 
-<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/54f98a80-996e-4d77-b9ac-5d2d5140eed8" />
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/57d56af6-d376-4191-907c-5fbcbf0b8b2a" />
+
+
 
 ## ⚙️ Working
 
