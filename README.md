@@ -109,7 +109,7 @@ The controller interfaces with:
 • **Microcontroller:** LPC2148 ARM7  
 • **IDE:** Keil µVision 4  
 • **Simulation Software:** Proteus  
-• **Communication Interface:** I²C  
+• **Communication Interface:** Uart  
 • **Temperature Interface:** ADC  
 • **Display:** 16×2 LCD and 7-Segment Display
 
